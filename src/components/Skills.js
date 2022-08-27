@@ -33,7 +33,7 @@ function Skills() {
                             <div className='skills__data'>
                                 <div className='skills__titles'>
                                     <h3 className='skills__name'>HTML5</h3>
-                                    <span className='skills__number'>95%</span>
+                                    <span className='skills__number'>100%</span>
                                 </div>
                                 <div className='skills__bar'>
                                     <span className='skills__percentage skills__html'></span>
@@ -42,7 +42,7 @@ function Skills() {
                             <div className='skills__data'>
                                 <div className='skills__titles'>
                                     <h3 className='skills__name'>CSS3</h3>
-                                    <span className='skills__number'>90%</span>
+                                    <span className='skills__number'>100%</span>
                                 </div>
                                 <div className='skills__bar'>
                                     <span className='skills__percentage skills__css'></span>
@@ -51,7 +51,7 @@ function Skills() {
                             <div className='skills__data'>
                                 <div className='skills__titles'>
                                     <h3 className='skills__name'>Flutter</h3>
-                                    <span className='skills__number'>90%</span>
+                                    <span className='skills__number'>96%</span>
                                 </div>
                                 <div className='skills__bar'>
                                     <span className='skills__percentage skills__flutter'></span>
@@ -61,7 +61,7 @@ function Skills() {
                             <div className='skills__data'>
                                 <div className='skills__titles'>
                                     <h3 className='skills__name'>JavaScript</h3>
-                                    <span className='skills__number'>95%</span>
+                                    <span className='skills__number'>98%</span>
                                 </div>
                                 <div className='skills__bar'>
                                     <span className='skills__percentage skills__js'></span>
@@ -70,7 +70,7 @@ function Skills() {
                             <div className='skills__data'>
                                 <div className='skills__titles'>
                                     <h3 className='skills__name'>React</h3>
-                                    <span className='skills__number'>90%</span>
+                                    <span className='skills__number'>96%</span>
                                 </div>
                                 <div className='skills__bar'>
                                     <span className='skills__percentage skills__react'></span>
@@ -92,7 +92,7 @@ function Skills() {
                             <div className='skills__data'>
                                 <div className='skills__titles'>
                                     <h3 className='skills__name'>java</h3>
-                                    <span className='skills__number'>90%</span>
+                                    <span className='skills__number'>95%</span>
                                 </div>
                                 <div className='skills__bar'>
                                     <span className='skills__percentage skills__java'></span>
@@ -101,7 +101,7 @@ function Skills() {
                             <div className='skills__data'>
                                 <div className='skills__titles'>
                                     <h3 className='skills__name'>Node Js</h3>
-                                    <span className='skills__number'>90%</span>
+                                    <span className='skills__number'>98%</span>
                                 </div>
                                 <div className='skills__bar'>
                                     <span className='skills__percentage skills__node'></span>
@@ -110,13 +110,13 @@ function Skills() {
                             <div className='skills__data'>
                                 <div className='skills__titles'>
                                     <h3 className='skills__name'>firebase</h3>
-                                    <span className='skills__number'>80%</span>
+                                    <span className='skills__number'>95%</span>
                                 </div>
                                 <div className='skills__bar'>
                                     <span className='skills__percentage skills__firebase'></span>
                                 </div>
                             </div>
-                           
+
                         </div>
                     </div>
 

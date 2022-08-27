@@ -474,32 +474,32 @@ p {
 }
 
 .skills__html {
-  width: 95%;
+  width: 100%;
 }
 .skills__css {
-  width: 90%;
+  width: 100%;
 }
 .skills__js {
-  width: 95%;
+  width: 98%;
 }
 .skills__react {
-  width: 90%;
+  width: 96%;
 }
 
 .skills__java {
-  width: 90%;
+  width: 95%;
 }
 
 .skills__node {
-  width: 90%;
+  width: 96%;
 }
 .skills__firebase {
-  width: 80%;
+  width: 95%;
 }
 
 
 .skills__flutter {
-  width: 90%;
+  width: 96%;
 }
 
 .skills__close .skills__list {

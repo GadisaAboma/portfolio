@@ -32,8 +32,8 @@ const Header = () => {
         document.body.classList.toggle(darkTheme)
         themeButton.classList.toggle(iconTheme)
 
-        localStorage.setItem('selected-theme', currentTheme)
-        localStorage.setItem('selected-icon', currentIcon)
+        localStorage.setItem('selected-theme', currentTheme())
+        localStorage.setItem('selected-icon', currentIcon())
 
     }
 

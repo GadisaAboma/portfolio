@@ -1,10 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Header = () => {
 
     let themeButton, darkTheme, iconTheme
 
-  
+    useEffect(() => {
+        themeButton = document.getElementById('theme-button')
+        darkTheme = 'dark-theme'
+        iconTheme = 'uil-sun'
+
+        const selectedTheme = localStorage.getItem('selected-theme')
+        const selectedIcon = localStorage.getItem('selected-icon')
+
+        if (selectedTheme) {
+            document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+            themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
+        }
+    }, [])
 
     const showMenu = () => {
         const navMenu = document.getElementById('nav-menu')
@@ -17,17 +29,6 @@ const Header = () => {
     }
 
     const changeTheme = () => {
-        themeButton = document.getElementById('theme-button')
-        darkTheme = 'dark-theme'
-        iconTheme = 'uil-sun'
-
-        const selectedTheme = localStorage.getItem('selected-theme')
-        const selectedIcon = localStorage.getItem('selected-icon')
-
-        if (selectedTheme) {
-            document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
-            themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
-        }
         document.body.classList.toggle(darkTheme)
         themeButton.classList.toggle(iconTheme)
 
